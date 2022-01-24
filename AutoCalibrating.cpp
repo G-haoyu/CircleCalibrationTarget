@@ -27,7 +27,7 @@ int main( int argc, char* argv[] )
     cvtColor(img, grayImg, COLOR_BGR2GRAY);
     imwrite("bigWork_2.jpg", grayImg);
 
-    /* 3、高斯模糊 */
+    /* 3、均值模糊 */
     Mat grayImg_mean = imgFilter_mean(grayImg, 4);
     imwrite("bigWork_3.jpg", grayImg_mean);
 
