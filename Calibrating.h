@@ -57,7 +57,7 @@ cv::Mat drawPoints(std::string title, cv::Mat img, std::vector<cv::Point2f> poin
 
 int getAreaThreshold(cv::Mat img);// 获得当前图片能够正常标定的标定板面积下限
 
-cv::Mat imgFilter_mean(cv::Mat imgSrc, int winSize);// 对图像进行高斯滤波
+cv::Mat imgFilter_mean(cv::Mat imgSrc, int winSize);// 对图像进行均值滤波
 
 cv::Mat getOtsu(cv::Mat sourceImg, int splitNum);// 获取二值图像，使用OTSU自适应阈值算法
 
