@@ -126,7 +126,7 @@ int getAreaThreshold(cv::Mat img)
     return minLine * minLine;
 }
 
-// 对图像进行高斯滤波
+// 对图像进行均值滤波
 cv::Mat imgFilter_mean(cv::Mat imgSrc, int winSize)
 {
     Mat imgRes;
